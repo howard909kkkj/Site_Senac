@@ -8,7 +8,7 @@ body{
 .header {
     padding: 80px;
     text-align: center;
-    background-color: #fa0021;
+    background-color: #65aecc;
     color: black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: italic;
@@ -19,7 +19,7 @@ body{
 }
 
 .navbar {
-    background-color: #000000;
+    background-color: #eaacb3;
     overflow: hidden;
 }
 
@@ -27,14 +27,14 @@ body{
     float: left;
     display: block;
     padding: 14px 20px;
-    color: #fa0021;
+    color: #000000;
     text-align: center;
     text-decoration: none;
 }
 
 .navbar a:hover{
     background-color: white;
-    color: black;
+    color: #65aecc;
 }
 
 .navbar a.right{
@@ -46,7 +46,7 @@ body{
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    color: white;
+    color: black;
     font-family:Arial, Helvetica, sans-serif;
     font-style: italic;
 }
@@ -54,21 +54,21 @@ body{
 .div1 {
     -ms-flex: 30%;
     flex: 30%;
-    background-color: #000000ec;
+    background-color: #ffffffec;
     padding: 20px;
 }
 
 .div2 {
     -ms-flex: 70%;
     flex: 70%;
-    background-color: #000000ec;
+    background-color: #ffffffec;
     padding: 20px;
 }
 
 .footer {
     padding: 20px;
     text-align: center;
-    background-color:#fa0021;
+    background-color:#eaacb3;
     width: 100%;
 }
 
