@@ -54,14 +54,14 @@ body{
 .div1 {
     -ms-flex: 30%;
     flex: 30%;
-    background-color: #ffffffec;
+    background-color: #F4F4F3;
     padding: 20px;
 }
 
 .div2 {
     -ms-flex: 70%;
     flex: 70%;
-    background-color: #ffffffec;
+    background-color: #F4F4F3;
     padding: 20px;
 }
 
