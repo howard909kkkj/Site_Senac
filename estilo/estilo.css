@@ -48,21 +48,41 @@ body{
     flex-wrap: wrap;
     color: black;
     font-family:Arial, Helvetica, sans-serif;
-    
 }
 
-.div1 {
-    -ms-flex: 30%;
-    flex: 30%;
-    background-color: #F4F4F3;
-    padding: 20px;
+.produto {
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
-.div2 {
-    -ms-flex: 70%;
-    flex: 30%;
-    background-color: #F4F4F3;
-    padding: 20px;
+.border {
+    border-radius: 6px;
+}
+
+.description {
+    background-color: #d84c72;
+    color: whitesmoke;
+    padding: 5px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.value {
+    color: #378805;
+    text-align: end;
+    font-weight: bold;
+}
+
+.description:hover {
+    transform: rotate(-2deg);
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
 }
 
 .footer {
