@@ -4,6 +4,7 @@
 body{
     margin: 0;
     font-family: 'Sono', sans-serif;
+    background-color: #fcf5f5;
 }
 .header {
     padding: 80px;
@@ -67,6 +68,7 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     cursor: pointer;
     border-radius: 6px;
+    
 }
 
 .value {
@@ -91,6 +93,13 @@ body{
     flex-direction: row;
     margin-left: -100px;
 }
+.div2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 4px;
+    flex-direction: row;
+    margin-top: 10px;
+}
 
 .combos{
     display: flex;
@@ -101,6 +110,7 @@ body{
 }
 
 .mp {
+    font-size: 25px;
     background-color: #eaacb3;
     color: rgb(0, 0, 0);
     padding: 5px 10px;
@@ -120,11 +130,14 @@ body{
 }
 
 .nomeOf{
+    font-size: 25px;
     background-color: #eaacb3;
     color: rgb(0, 0, 0);
+    padding: 5px 10px;
     cursor: pointer;
     border-radius: 6px;
     display:inline;
+    margin-left: 3px;
 }
 
 .footer {
