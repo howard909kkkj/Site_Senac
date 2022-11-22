@@ -10,8 +10,8 @@ body{
     padding: 80px;
     text-align: center;
     background-color: #65aecc;
-    color: black;
-    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    color: rgb(36, 36, 36);
+    font-family: 'Satisfy', cursive;
     font-style: italic;
 }
 
@@ -86,12 +86,29 @@ body{
     transform: rotate(-2deg);
 }
 
+.video {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 3px;
+}
+.space {
+    margin-left: 90px;
+}
 .produtos {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     flex-direction: row;
     margin-left: -100px;
+}
+.numfunfa {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 4px;
+    flex-direction: row;
+    margin-top: 10px;
+    justify-content: space-around;
 }
 .div2{
     display: flex;
@@ -129,7 +146,30 @@ body{
     margin-left: 90px;
 }
 
+.nomeOfKk{
+    font-size: 25px;
+    background-color: #eaacb3;
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    display:inline;
+    margin-left: 3px;
+    text-align: end;
+}
+
 .nomeOf{
+    font-size: 25px;
+    background-color: #eaacb3;
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    display:inline;
+    margin-left: 3px;
+}
+
+.brkurtos{
     font-size: 25px;
     background-color: #eaacb3;
     color: rgb(0, 0, 0);
@@ -177,5 +217,6 @@ body{
     .navbar a{
         float: none;
         width: 100%;
+
     }
 }
